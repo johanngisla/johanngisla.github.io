@@ -1,0 +1,183 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font: bold 14px Arial, sans-serif;
+}
+html {
+	height: 100%;
+	background: white;
+	background: radial-gradient(circle, #fff 20%, #ccc);
+	background-size: cover;
+}
+
+.calculator {
+	width: 250px;
+	height: auto;
+	margin: 50px auto;
+	padding: 20px 20px 9px;
+	background: #7ec8c5;
+	background: linear-gradient(#7ec8c5, #6eccc8);
+	border-radius: 3px;
+	box-shadow: 0px 4px #3d7f7c, 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+	text-align: center;
+	font-size: 24px;
+	padding-bottom: 5px; 
+}
+.top div.clear {
+	float: left;
+}
+.top .screen {
+	height: 40px;
+	width: 135px;
+	float: left;
+	
+	padding: 0 10px;
+	
+	background: rgba(0, 0, 0, 0.2);
+	border-radius: 3px;
+	box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
+
+	font-size: 17px;
+	line-height: 40px;
+	color: white;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+	text-align: right;
+	letter-spacing: 1px;
+}
+
+.units-per {
+	font-size: 12px;
+	padding-bottom: 5px;
+	padding-left: 25px;
+	color: #3F3F3F;
+}
+
+.keys, .top, .custom-input {
+	overflow: hidden;
+}
+
+.button, .top div.clear {
+	float: left;
+	position: relative;
+	top: 0;
+	cursor: pointer;
+	
+	width: 63px;
+	height: 36px;
+	background: white;
+	border-radius: 3px;
+	box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+	margin: 0 7px 11px 0;
+	
+	color: #555;
+	line-height: 36px;
+	text-align: center;
+	user-select: none;
+	transition: all 0.2s ease;
+}
+
+p {
+	padding-bottom: 15px;
+	text-align: center;
+
+}
+
+.circle {
+	width: 25px;
+	height: 25px;
+	background: #BAFFFC;
+	border: 3px solid #417B79;
+	text-align: center;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+
+	position: relative;
+	bottom: 50px;
+	left: 40px;
+	z-index: 1;
+	visibility: hidden;
+	font-size: 15px;
+}
+
+.spirit {
+	background: rgb(123,169,213);
+	background: rgba(123,169,213,.6);
+}
+.wine {
+	background: rgb(251,140,133);
+	background: rgba(251,140,133,.6);
+}
+
+.beer {
+	background: rgb(255,204,0);
+	background: rgba(255,204,0,.6);
+}
+
+.wine-text {
+	position: relative;
+	float: left;
+	width: 50%;
+	left: 18px;
+}
+
+.beer-text {
+	position: relative;
+	float: right;
+	width: 50%;
+	left: 10px;
+}
+
+h2 {
+	text-align: center;
+	font-size: 20px;
+	padding: 10px 0;
+}
+
+.custom-input p{
+	position: relative;
+	float: left;
+	margin: 0 7px 15px 0;
+	top: 12px;
+}
+
+.custom-box {
+	border: none;
+	height: 40px;
+	width: 100px;
+	
+	float: right;
+	
+	padding: 0 10px;
+	
+	background: rgba(0, 0, 0, 0.1);
+	border-radius: 3px;
+	box-shadow: inset 0px 4px rgba(0, 0, 0, 0.1);
+	margin: 0 7px 11px 0;
+	
+}
+.add {
+	float: right;
+	width: 40px;
+	background: rgb(91, 193, 109);
+	background: rgba(91, 193, 109,.8);
+}
+
+.keys .button:active {
+	box-shadow: 0px 0px;
+	top: 4px;
+}
+
+.top div.clear:active {
+	box-shadow: 0px 0px;
+	top: 4px;
+}
+
+.add:active {
+	box-shadow: 0px 0px;
+	top: 4px;
+}
